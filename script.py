@@ -309,3 +309,19 @@ for key, texts in texts_by_key.items():
     # Generate word frequencies
     word_freq = Counter(filtered_words)
     top_words = word_freq.most_common(15)  # Get top 15 words
+    
+    # Rest of your plotting code...
+    plt.figure(figsize=(16, 8))
+    
+    # Subplot 1: Word Cloud
+    plt.subplot(1, 2, 1)
+    wc = WordCloud(
+        width=800,
+        height=600,
+        background_color="white",
+        stopwords=all_stopwords
+    ).generate(" ".join(filtered_words))
+    
+    plt.imshow(wc, interpolation="bilinear")
+    plt.axis("off")
+    plt.title(f"Word Cloud - {key}", fontsize=14, pad=20)

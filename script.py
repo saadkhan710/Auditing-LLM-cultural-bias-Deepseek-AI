@@ -325,3 +325,34 @@ for key, texts in texts_by_key.items():
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")
     plt.title(f"Word Cloud - {key}", fontsize=14, pad=20)
+    
+    
+    # Subplot 2: Frequency Table
+    plt.subplot(1, 2, 2)
+    ax = plt.gca()
+    ax.axis('off')
+    
+    if top_words:
+        col_labels = ['Word', 'Count']
+        table_data = [[word, str(count)] for word, count in top_words]
+        
+        table = plt.table(cellText=table_data,
+                         colLabels=col_labels,
+                         loc='center',
+                         cellLoc='center',
+                         colWidths=[0.6, 0.4])
+        
+        table.auto_set_font_size(False)
+        table.set_fontsize(12)
+        table.scale(1, 1.5)
+        
+        for (i, j), cell in table.get_celld().items():
+            if i == 0:
+                cell.set_facecolor('#5B9BD5')
+                cell.set_text_props(color='white')
+            else:
+                cell.set_facecolor('#FFFFFF')
+    
+    plt.title(f"Top Words - {key}", fontsize=14,pad = 20)
+    plt.tight_layout()
+    plt.show()

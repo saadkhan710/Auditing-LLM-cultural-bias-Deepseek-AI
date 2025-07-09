@@ -292,3 +292,20 @@ custom_stopwords = {"role", "conference", "two", "key", "personality", "traits",
                     "lakshmi", "miguel", "franz", "chen", "zanele", "hana", 
                     "luca", "thiago"}
 
+# Combine all stopwords
+all_stopwords = STOPWORDS.union(custom_stopwords)
+
+for key, texts in texts_by_key.items():
+    combined = " ".join(texts)
+    
+    # Clean text: remove punctuation, digits, and make lowercase
+    combined_clean = re.sub(r"[^A-Za-z\s]", " ", combined).lower()
+    words = combined_clean.split()
+    
+    # Filter stopwords and short words
+    filtered_words = [word for word in words 
+                     if word not in all_stopwords and len(word) > 2]
+    
+    # Generate word frequencies
+    word_freq = Counter(filtered_words)
+    top_words = word_freq.most_common(15)  # Get top 15 words

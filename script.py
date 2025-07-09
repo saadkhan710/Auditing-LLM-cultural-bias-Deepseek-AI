@@ -278,3 +278,17 @@ She clashes with Fatima (Egypt) on the pace of reform but finds common ground wi
         ),
     },
 ]
+
+texts_by_key = defaultdict(list)
+
+for record in sample_data:
+    key = record["culture"]
+    texts_by_key[key].append(record["text"])
+
+# Custom stopwords
+custom_stopwords = {"role", "conference", "two", "key", "personality", "traits", 
+                    "contributions", "human", "rights", "free", "speech",
+                    "style", "e", "g", "vs", "fatima", "aisha", "david", 
+                    "lakshmi", "miguel", "franz", "chen", "zanele", "hana", 
+                    "luca", "thiago"}
+

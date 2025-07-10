@@ -147,23 +147,25 @@ She clashes with Franz (Germany) on Europe’s accountability for colonialism bu
         "culture": "Mexico: Latin America",
         "text": (
             '''Role in the Peace Conference:
-Lakshmi is a renowned scholar of religious studies and social activist, specializing in interfaith harmony and sustainable development. She represents India’s pluralistic traditions while addressing contemporary challenges of communalism and caste-based discrimination. Her work focuses on grassroots peacebuilding through education and women’s empowerment.
+Role in the Peace Conference:
+Miguel is a human rights lawyer and indigenous rights activist, specializing in migration justice and land sovereignty. He represents Mexico’s complex position as both a transit country for migrants and a home to marginalized indigenous communities, advocating for policies that address systemic inequality and state violence.
 
 Two Key Personality Traits:
-Inclusive – Lakshmi actively seeks to involve marginalized voices in discussions, whether from rural communities, lower castes, or religious minorities.
+Tenacious – Miguel relentlessly challenges power structures, whether confronting government corruption or corporate land grabs.
 
-Meditative – She employs a calm, deliberate approach to conflict resolution, often quoting Gandhi or Buddhist principles to de-escalate tensions.
+Empathetic – He centers the voices of directly affected communities, often bringing grassroots leaders into high-level discussions.
 
 Contributions to Human Rights, Free Speech & Religion:
-Human Rights: Advocates for caste-sensitive policies and gender equity, citing India’s mixed progress in these areas. Stresses that economic justice is inseparable from human dignity.
+Human Rights: Exposes state complicity in cartel violence and forced disappearances, demanding accountability for Mexico’s "drug war" victims.
 
-Free Speech: Balances support for open debate with warnings about communal hate speech, referencing India’s struggles with mob violence fueled by misinformation.
+Free Speech: Highlights the dangers faced by journalists (Mexico is one of the deadliest countries for reporters), pushing for international protection mechanisms.
 
-Religion: Promotes "dialogue through shared rituals" (e.g., interfaith charity kitchens) and critiques politicized Hinduism while respecting its cultural significance.
+Religion: Advocates for indigenous spiritual rights, such as protecting sacred lands from mining projects, while mediating tensions with Catholic institutions.
 
 Conference Style:
-Lakshmi often bridges divides—e.g., finding common ground between Aisha (Saudi Arabia) on women’s roles in faith and Franz (Germany) on secular governance. She poses reflective questions like:
-"Can a nation claim spiritual heritage while suppressing minority voices?
+Miguel’s approach is confrontational yet strategic:
+"When governments call migrants ‘criminals,’ they erase the poverty their trade policies created."
+He clashes with David (USA) on border militarization but allies with Thiago (Brazil) on anti-corporate activism.
 '''
         ),
     },

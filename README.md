@@ -56,8 +56,6 @@ pip install -r requirements.txt
 Auditing-LLM-cultural-bias-Deepseek-AI/
 ├── main.py                   # Core script: processing & visualizations
 ├── requirements.txt          # Package dependencies
-├── sample_data.json          # Input data (example cultural text records)
-├── assets/                   # Optional: save plots or images here
 └── README.md                 # This file
 ```
 

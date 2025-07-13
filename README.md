@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ## 📁 Project Structure
 ```bash
 Auditing-LLM-cultural-bias-Deepseek-AI/
-├── main.py                   # Core script: processing & visualizations
+├── script.py                   # Core script: processing & visualizations
 ├── requirements.txt          # Package dependencies
 └── README.md                 # This file
 ```
